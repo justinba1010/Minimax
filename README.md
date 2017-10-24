@@ -8,6 +8,9 @@ The Node class handles all the minimax search, pruning, and can run any Board cl
 	a legalmove function, asks the board if a move is legal on the board
 	a makemove function, tells the board to make a move and update
 	a genlegalmoves function, asks for a list of legal moves for the AI to cycle through
-	a __unicode__ function, that outputs the 
+	a __unicode__ function, that outputs the
 	a move class inside the Board file
-	
+
+
+To run game
+>python alphacontest.py
