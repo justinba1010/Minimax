@@ -1,6 +1,8 @@
 # Minimax
 Simple Minimax AI For Senior Year
 
+**There are a lot mistakes I have made when making this. I have done other minimax AI's in my Pen Academy repository, that although are less complicated, a lot cleaner, using the same architecture/style as this, as in the position is not held within the tree, the entire object is(which is slow).
+
 This simple AI consists of a Node class, AI class, and Board class.
 The Node class handles all the minimax search, pruning, and can run any Board class that meets the requirements of:
 	a winner function, that returns the score with +inf as the upper bound for player 1(WHITE), and -inf as the upper bound for player 2(BLACK).
